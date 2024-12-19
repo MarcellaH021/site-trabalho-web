@@ -1,0 +1,216 @@
+body { 
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: var(--header-color);
+  padding: 10px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-family: "logo";
+  color: #fff;
+  font-size: 33px;
+  text-shadow: 3px 3px 5px #000;
+}
+
+header h4 {
+  text-align: center;
+  font-family: "Slogam";
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 2px 2px 3px #000;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu {
+  width: 99.3%;
+  background-color: var(--menu-color);
+  color: #fff;
+  padding: 15px 5px;
+}
+
+#menu span {
+  font-family: "bold";
+  font-size: 25px;
+  display: none;
+}
+
+#menu ul {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  padding: 2px;
+  margin: 1px;
+  gap: 150px;
+}
+
+#menu li {
+  font-family: "regular";
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+#menu li:hover {
+  color: #b6b6b6;
+}
+
+#content {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: var(--content-color);
+}
+
+#content-title {
+  font-family: "bold";
+  text-align: center;
+  font-size: 2rem;
+}
+
+.info-start {
+  background-color: var(--music-photos-color);
+  border-radius: 50px;
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+}
+
+.info-start span {
+  font-family: "regular";
+  font-size: 17px;
+}
+
+.info-start h2 {
+  font-family: "regular";
+  font-size: 15px;
+  text-align: center;
+}
+
+.info-prod {
+  background-color: var(--music-photos-color);
+  border-radius: 50px;
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+}
+
+.info-prod span {
+  font-family: "bold";
+  font-size: 30px;
+  text-align: center;
+}
+
+.music-card {
+  background-color: var(--music-photos-color);
+  border-radius: 50px;
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  padding: 40px;
+}
+
+.music-card img {
+  width: 50%;
+  border-radius: 20px;
+}
+
+.music-card span {
+  width: 50%;
+  padding: 0 20px;
+  font-family: "regular";
+  font-size: 17px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 10px;  
+  background-color: #a5cbf5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;  
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #becad7;
+}
+
+
+.info-info {
+  background-color: var(--music-photos-color);
+  border-radius: 50px;
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.info-info span {
+  font-family: "bold";
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.iframe-container {
+  position: relative;
+  width: 99.3%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: var(--footer-color);
+  padding-top: 15px;
+}
+
+footer span {
+  color: #fff;
+  font-family: "bold";
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  padding-bottom: 10px;
+  gap: 50px;
+}
+
+footer li {
+  font-family: "regular";
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
